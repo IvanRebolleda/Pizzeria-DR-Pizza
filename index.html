@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzeria DR Pizza</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="barra-de-navegacion">
+            <a href="./index.html"><img class="logo" src="./imagenes/logo-de-pizzeria.png"
+                    alt="logo de la pizzeria"></a>
+            <div class="contenedor-enlaces">
+                <!-- icono de cierre -->
+                <i class="ri-close-circle-line cerrar-menu-hamburguesa"></i>
+
+                <!-- enlaces -->
+                <a class="enlace" href="#home">Home</a>
+                <a class="enlace" href="#pizzas">Pizzas</a>
+                <a class="enlace" href="#empanadas">Empanadas</a>
+                <a class="enlace" href="#bebidas">Bebidas</a>
+                <a class="enlace" href="#postres">Postres</a>
+                <a class="enlace" href="#ubicacion">Ubicacion</a>
+                <a class="enlace" href="#contacto">Contacto</a>
+            </div>
+
+            <!-- icono de menu hambuerguesa -->
+            <i class="ri-menu-fill menu-hamburguesa"></i>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- seccion home -->
+        <section class="seccion home" id="home">
+            <h1 class="titulo-principal">Dr pizza</h1>
+            <h2 class="titulo-seccion">Sabemos curar el apetito</h2>
+        </section>
+
+        <!-- seccion pizzas -->
+        <section class="seccion" id="pizzas">
+            <h2 class="titulo-seccion">Pizzas</h2>
+            <div class="contenedor-pizzas">
+                <img src="./imagenes/pizza1.jpg" alt="imagen de pizza 1">
+                <img src="./imagenes/pizza2.jpg" alt="imagen de pizza 2">
+                <img src="./imagenes/pizza3.jpg" alt="imagen de pizza 3">
+                <img src="./imagenes/pizza4.jpg" alt="imagen de pizza 4">
+                <img src="./imagenes/pizza5.jpg" alt="imagen de pizza 5">
+                <img src="./imagenes/pizza6.jpg" alt="imagen de pizza 6">
+            </div>
+        </section>
+
+        <!-- seccion empanadas -->
+        <section class="seccion" id="empanadas">
+            <h2 class="titulo-seccion">Empanadas</h2>
+            <div class="contenedor-Empanadas">
+                <img src="./imagenes/empanada1.jpg" alt="imagen de empanada 1">
+                <img src="./imagenes/empanada2.jpg" alt="imagen de empanada 2">
+                <img src="./imagenes/empanada3.jpg" alt="imagen de empanada 3">
+                <img src="./imagenes/empanada4.jpg" alt="imagen de empanada 4">
+                <img src="./imagenes/empanada5.jpg" alt="imagen de empanada 5">
+                <img src="./imagenes/empanada6.jpg" alt="imagen de empanada 6">
+            </div>
+        </section>
+
+        <!-- seccion bebidas -->
+        <section class="seccion" id="bebidas">
+            <h2 class="titulo-seccion">Bebidas</h2>
+            <div class="contenedor-bebidas">
+                <img src="./imagenes/bebida1.jpg" alt="imagen de bebida 1">
+                <img src="./imagenes/bebida2.jpg" alt="imagen de bebida 2">
+                <img src="./imagenes/bebida3.jpg" alt="imagen de bebida 3">
+                <img src="./imagenes/bebida4.jpg" alt="imagen de bebida 4">
+                <img src="./imagenes/bebida5.jpg" alt="imagen de bebida 5">
+                <img src="./imagenes/bebida6.jpg" alt="imagen de bebida 6">
+            </div>
+        </section>
+
+        <!-- seccion postres -->
+        <section class="seccion" id="postres">
+            <h2 class="titulo-seccion">Postres</h2>
+            <div class="contenedor-postres">
+                <img src="./imagenes/postre1.jpg" alt="imagen de postre 1">
+                <img src="./imagenes/postre2.jpg" alt="imagen de postre 2">
+                <img src="./imagenes/postre3.jpg" alt="imagen de postre 3">
+                <img src="./imagenes/postre4.jpg" alt="imagen de postre 4">
+                <img src="./imagenes/postre5.jpg" alt="imagen de postre 5">
+                <img src="./imagenes/postre6.jpg" alt="imagen de postre 6">
+            </div>
+        </section>
+
+        <!-- seccion ubicacion -->
+        <section class="seccion" id="ubicacion">
+            <h2 class="titulo-seccion">Ubicacion</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27255.53263832375!2d-64.24481062089843!3d-31.360591299999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432997b93c0532b%3A0x9151f39c29161f0d!2sPizzer%C3%ADa%20Popular!5e0!3m2!1ses-419!2sar!4v1680702921891!5m2!1ses-419!2sar"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </section>
+        
+        <!-- seccion contacto -->
+        <section class="ultima-seccion" id="contacto">
+            <h2 class="titulo-seccion">Contacto</h2>
+            <form class="formulario">
+                <label>Nombre</label>
+                <input class="input" type="text">
+
+                <label>Telefono</label>
+                <input class="input" type="number">
+
+                <label>Sugerencia</label>
+                <textarea class="textarea"></textarea>
+            </form>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>2023 | Dr Pizza | Todos los derechos reservados</p>
+        <div class="redes-sociales">
+            <a href=""><i class="ri-facebook-circle-fill"></i></a>
+            <a href=""><i class="ri-instagram-fill"></i></a>
+            <a href=""><i class="ri-twitter-fill"></i></a>
+        </div>
+    </footer>
+
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
